@@ -1,6 +1,3 @@
-import 'dart:collection';
-
-import 'package:cleaning/app/widgets/avatar_user/avatar_user_widget.dart';
 import 'package:cleaning/app/widgets/offers/offers_widget.dart';
 import 'package:cleaning/app/widgets/services/services_widget.dart';
 import 'package:cleaning/app/widgets/suggestion/suggestion_widget.dart';
@@ -29,7 +26,7 @@ class _HomePageState extends State<HomePage> {
                 padding: EdgeInsets.only(top: 20.0),
               ),
               Expanded(
-                child: Container(color: Color(0xFFe9ede0)),
+                child: Container(color: Colors.white),
               ),
             ],
           ),
@@ -101,6 +98,7 @@ class _HomePageState extends State<HomePage> {
                                       child: OffersWidget(
                                         c1: 0xFF17ead9,
                                         c2: 0xFF6078ea,
+                                        text: "Ótimas Ofertas",
                                       ),
                                     ),
                                     Padding(
@@ -108,6 +106,7 @@ class _HomePageState extends State<HomePage> {
                                       child: OffersWidget(
                                         c1: 0xFFFF6870,
                                         c2: 0xFFC63968,
+                                        text: "Pintura interior",
                                       ),
                                     ),
                                     Padding(
@@ -115,6 +114,7 @@ class _HomePageState extends State<HomePage> {
                                       child: OffersWidget(
                                         c1: 0xFFFFBE86,
                                         c2: 0xFFFF6870,
+                                        text: "Eletricista",
                                       ),
                                     ),
                                     Padding(
@@ -122,6 +122,7 @@ class _HomePageState extends State<HomePage> {
                                       child: OffersWidget(
                                         c1: 0xFFF7AF25,
                                         c2: 0xFF98521A,
+                                        text: "Encanador\n",
                                       ),
                                     ),
                                     Padding(
@@ -129,6 +130,7 @@ class _HomePageState extends State<HomePage> {
                                       child: OffersWidget(
                                         c1: 0xFF17ead9,
                                         c2: 0xFF6078ea,
+                                        text: "Reparos em geral",
                                       ),
                                     ),
                                   ],

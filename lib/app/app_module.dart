@@ -1,3 +1,4 @@
+import 'package:cleaning/app/pages/offers_amazing/offers_amazing_bloc.dart';
 import 'package:cleaning/app/widgets/offers/offers_bloc.dart';
 import 'package:cleaning/app/widgets/services/services_bloc.dart';
 import 'package:cleaning/app/widgets/suggestion/suggestion_bloc.dart';
@@ -13,6 +14,7 @@ import 'package:cleaning/app/app_widget.dart';
 class AppModule extends ModuleWidget {
   @override
   List<Bloc> get blocs => [
+        Bloc((i) => OffersAmazingBloc()),
         Bloc((i) => OffersBloc()),
         Bloc((i) => ServicesBloc()),
         Bloc((i) => SuggestionBloc()),

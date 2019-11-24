@@ -82,12 +82,12 @@ class ServicesWidget extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     ImageIcon(
-                    AssetImage("assets/man.png"),
+                    AssetImage("assets/car.png"),
                     size: 45,
                   ),
                     Container(
                         child: Text(
-                      "Faz tudo",
+                      "Auto",
                       style:
                           TextStyle(fontFamily: "Poppins-Medium", fontSize: 15),
                     ))
@@ -95,8 +95,8 @@ class ServicesWidget extends StatelessWidget {
                 ),
                 Column(
                   children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.store,
+                    ImageIcon(
+                      AssetImage("assets/more.png"),
                       size: 45,
                     ),
                     Container(
